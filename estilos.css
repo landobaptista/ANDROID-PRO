@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+@font-face {
+    font-family: "android";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+@font-face {
+    font-family: "font02";
+    src: url("fontes/bahnschrift.ttf") format("opentype");
+}
+body{
+background-color: #fffefe;   
+}
+.header{
+    font-size:2.5vw;
+}
+.fundo-pintado{
+    font-family: "android";
+    margin: 20px;
+    border-radius: 4px;
+    background-image: linear-gradient(to left, #08070759 , #FFFF);
+    
+  
+}
+p, a , ul{
+    font-family: "font02";
+}
+header{
+    
+     background-image: linear-gradient(to bottom, #d3d3d3 , #000000);
+     background-image: url("img/irina-blok.jpg");
+     background-size: 100%;
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+   
+    color: #FFFF;
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+     
+    h1{
+        font-family: "android";
+    }
+}
+header p{
+    font-size: 90%;
+}
+nav{
+    background-image: linear-gradient(to left, lightgray , #000000);
+    background-image: url("img/irina-blok.jpg");
+    background-position: top center;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+  a{
+  margin: auto;
+     background-image: linear-gradient(to left, #e4e1e1 , #f6f2f2);
+    color: #000000; 
+    padding: 3px;
+    margin: 10px;
+    border-radius: 3px;
+    text-decoration: none;  
+    box-shadow: 1px 1px 20px 2px ; 
+} 
+a:hover{
+    background-image: linear-gradient(to left, #08070753 , #737171);
+    color: #FFFF;
+}
+main{
+   
+    padding: 10px;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+   
+}
+main > section{
+     border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 5px;
+ background-color: lightgray;
+ padding: 30px;
+ text-align: justify;
+ background-image: linear-gradient(to left, #e9e9e9 , #00000064);
+ background-image: url("img/irina-blok.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+
+ 
+
+}
+main > section ul{
+    
+    list-style-position: inside;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     columns: 2;
+    list-style-type: \1F517\;
+   
+    
+}
+ main >section> article  {
+    margin: 10px;
+    background-color: #FFFF;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.8em;
+    border-radius: 3px;
+}
+main > section > aside{
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 20px;
+     background-image: url("img/bugdroid.png");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-attachment: fixed;
+   line-height: 1.8em;
+    
+}
+main > section picture > img{
+    width: 100%;
+}
+main > section >div{
+   background-image: url("img/bugdroid.png");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-attachment: fixed;
+   max-width: 1000px;
+   height: 250px;
+    
+    
+}
+footer{
+    text-align: center;
+   background-image: linear-gradient(to right, #000000c9 , #fffbfb);
+   height: 20px;
+   padding: 20px;
+   background-image: url("img/irina-blok.jpg");
+   background-position: center center;
+   
+   background-size: cover;
+
+}
